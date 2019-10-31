@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.particles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  background-color: #101118;
+}
+
+.website{
+  z-index: 1;
+  color: whitesmoke;
+}
+
+.particles canvas {
+  display: -webkit-box;
+  vertical-align: top;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  z-index: 1;
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 400;
+  font-size: 4em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ml9 .letter {
+  transform-origin: 10% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+.ml9 .text-wrapper {
+  text-align: center;
+  position: relative;
+  display: block;
+  padding-top: 0.0em;
+  padding-right: 0.0em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+  color: whitesmoke;
+}
