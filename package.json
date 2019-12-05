@@ -2,7 +2,7 @@
   "name": "chriskbu.github.io-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chriskbu.github.io/chriskbu.github.io",
+  "homepage": "https://chriskbu.github.io",
   "dependencies": {
     "animejs": "^3.0.1",
     "axios": "^0.19.0",
@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
