@@ -5,7 +5,7 @@ import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import ThreeApp from './Components/ThreeApp/ThreeApp'
 import Projects from './Components/Projects/Projects'
-import particlesOptions from './particleOptions.js.js';
+import particlesOptions from './particleOptions.js';
 import WebFont from 'webfontloader'; 
 
 // React-router import
