@@ -1,24 +1,24 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/Code/node_modules
+/Code/.pnp
+/Code/.pnp.js
 
 # testing
-/coverage
+/Code/coverage
 
 # production
-/build
+/Code/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.vscode/settings.json
+/Code/.DS_Store
+/Code/.env.local
+/Code/.env.development.local
+/Code/.env.test.local
+/Code/.env.production.local
+/Code/.vscode/settings.json
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/Code/npm-debug.log*
+/Code/yarn-debug.log*
+/Code/yarn-error.log*
