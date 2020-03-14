@@ -37,7 +37,6 @@ class App extends Component {
               <h1>Christoffer Buen</h1>
               <p>🎂26    👨‍Male    🇳🇴Norway</p>
               <p>Informatics📚    Tech🖥    Space🛰</p>
-              <p id="meNote">Currently looking for work</p>
               <p id="emailInfo">christoffer.buen[at]gmail.com</p>
             </div>
           </Route>
